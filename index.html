@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balance Out</title>
+
+    <link href="styles.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="/icofont/icofont.min.css">
+</head>
+<div class="bodywrap">
+    <body>
+        <main>
+            <h1>Balance Out</h1>
+            <h3>Your Personal Cash Register Manager!</h3>
+            <p>Enter the bill amount and cash given by the customer & know the balance and minimum number of notes to return.</p>
+
+            <div>
+                <div class="label">Bill Amount</div>
+                <input type="number" id="billAmt">
+                <button id="nextBtn">Next</button>
+            </div>
+
+            <div class="cashRecieved">
+                <div class="label">Cash Recieved</div>
+                <input type="number" id="cashRecieved">
+                <button id="checkBtn">Check</button>
+            </div>
+
+            <div class="errorMsg"></div>
+
+            <div class="balance">
+                <div class="label">Balance Amount</div>
+                <div id="output">
+                    <table>
+                        <tr>
+                            <th>Notes</th>
+                            <td>2000</td>
+                            <td>500</td>
+                            <td>100</td>
+                            <td>20</td>
+                            <td>10</td>
+                            <td>5</td>
+                            <td>1</td>
+                        </tr>
+
+                        <tr>
+                            <th>No. of Notes</th>
+                            <td class="noOfNotes"></td>
+                            <td class="noOfNotes"></td>
+                            <td class="noOfNotes"></td>
+                            <td class="noOfNotes"></td>
+                            <td class="noOfNotes"></td>
+                            <td class="noOfNotes"></td>
+                            <td class="noOfNotes"></td>
+                        </tr>
+                    </table>
+                    
+                </div>
+            </div>
+
+        </main>
+
+        <footer class="footer">
+            <div class="footer-header">Get in touch!</div>
+            <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="mailto: taran.s1608@gmail.com" target="_blank"><i
+                        class="icofont-send-mail"></i></a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/tarandeep-s1ngh/"
+                    target="_blank"><i class="icofont-linkedin"></i></a></li>
+            <li class="list-item-inline"><a class="link" href="https://github.com/Tarandeep-s1ngh " target="_blank"><i
+                        class='bx bxl-github'></i></a></li>
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/Tarandeep_s1ngh" target="_blank"><i
+                        class="icofont-twitter"></i></a></li>
+
+        </ul>
+        <p>Made with ❤ by Tarandeep Singh</p>
+
+        </footer>
+        
+        <script src="app.js"></script>
+    </body>
+</div>
+</html>
