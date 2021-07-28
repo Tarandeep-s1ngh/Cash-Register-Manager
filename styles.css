@@ -58,6 +58,7 @@ button{
     margin: 1rem auto 0;
     background-color:black;
     color: var(--primary-color);
+    cursor: pointer;
 }
 
 .cashRecieved {
